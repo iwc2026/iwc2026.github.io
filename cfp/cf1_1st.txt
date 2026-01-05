@@ -1,0 +1,86 @@
+--//----//----//----//----//----//----//----//----//----//----//----//----//--
+
+ 
+First Call For Papers
+ 
+15th International Workshop on Confluence at FLoC'26
+https://iwc2026.github.io
+July 24, 2025, Lisbon, Portugal
+ 
+ 
+--//----//----//----//----//----//----//----//----//----//----//----//----//--
+ 
+The 15th International Workshop on Confluence (IWC 2026), co-located
+with FSCD and IJCAR, aims at promoting further research in confluence and
+related properties. Confluence provides a general notion of
+determinism and has always been conceived as one of the central
+properties of rewriting. In fact, confluence relates to many topics of
+rewriting and computation in general (completion, modularity,
+termination, commutation, etc.) and has been investigated in many
+formalisms of rewriting such as first-order rewriting, lambda-calculi,
+higher-order rewriting, constrained rewriting, conditional rewriting,
+etc. Recently there is a renewed interest in confluence research,
+resulting in new techniques, tool support, certification as well as
+new applications. The workshop aims at promoting further research in
+confluence and related properties.
+ 
+## TOPICS
+ 
+IWC 2026 encourages submissions in the following areas:
+ 
+- confluence and related properties:
+  unique normal forms, commutation, ground confluence
+- completion
+- critical pair criteria
+- decidability issues
+- complexity issues
+- certification
+- applications of confluence
+ 
+The objective of this workshop is to bring together theoreticians and
+practitioners to promote new techniques and results, and to facilitate
+feedback on the implementation and application of such techniques and
+results in practice. IWC 2026 also aims to be a forum for presenting
+and discussing work in progress, and therefore to provide feedback to
+authors on their preliminary research. More information can be found
+on the webpage of the conference:
+
+   https://iwc2026.github.io
+ 
+## SUBMISSIONS
+
+We solicit short papers or extended abstracts of at most 5 pages in
+EasyChair style, excluding references. There will be no formal
+reviewing. In particular, we welcome short versions of recently
+published articles and papers submitted elsewhere. The program
+committee checks relevance and may provide additional feedback. The
+accepted papers will be made available electronically before the
+workshop. Short papers or extended abstracts must be submitted
+electronically through the HotCrp system at:
+
+   https://submissions.floc26.org/iwc/ 
+
+EasyChair style:
+ 
+   http://easychair.org/publications/for_authors
+ 
+## IMPORTANT DATES
+ 
+- Title and Abstract:         February 23rd, 2026
+- Paper Submission:           March    1st, 2026
+- Notification to authors:    April    1st, 2026
+- Workshop date:              July     24th, 2026
+
+## PROGRAM COMMITTEE
+
+- Takahito Aoto, Niigata Univeristy
+- Thiago Felicissimo, INRIA
+- Carsten Fuhs, Birkbeck, University of London
+- Raúl Gutiérrez, Universitat Politècnica de València (co-chair)
+- Ievgen Ivanov, Taras Shevchenko National University of Kyiv
+- René Thiemann, University of Innsbruck (co-chair)
+- Vincent van Oostrom, University of Sussex
+ 
+## CONTACT
+- Raúl Gutiérrez: raguti(at)upv.es
+- René Thiemann: rene._surname_(at)uibk.ac.at
