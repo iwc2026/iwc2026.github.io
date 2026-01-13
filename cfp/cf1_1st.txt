@@ -66,9 +66,9 @@ EasyChair style:
  
 ## IMPORTANT DATES
  
-- Title and Abstract:         February 23rd, 2026
-- Paper Submission:           March    1st, 2026
-- Notification to authors:    April    1st, 2026
+- Title and Abstract:         March    1st, 2026
+- Paper Submission:           March    9th, 2026
+- Notification to authors:    April    9th, 2026
 - Workshop date:              July     24th, 2026
 
 ## PROGRAM COMMITTEE
@@ -78,6 +78,7 @@ EasyChair style:
 - Carsten Fuhs, Birkbeck, University of London
 - Raúl Gutiérrez, Universitat Politècnica de València (co-chair)
 - Ievgen Ivanov, Taras Shevchenko National University of Kyiv
+- Misaki Kojima, Nagoya University
 - René Thiemann, University of Innsbruck (co-chair)
 - Vincent van Oostrom, University of Sussex
  
