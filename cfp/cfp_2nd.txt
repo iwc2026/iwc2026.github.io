@@ -23,7 +23,7 @@ etc. Recently there is a renewed interest in confluence research,
 resulting in new techniques, tool support, certification as well as
 new applications. The workshop aims at promoting further research in
 confluence and related properties.
- 
+
 ## TOPICS
  
 IWC 2026 encourages submissions in the following areas:
@@ -46,7 +46,13 @@ authors on their preliminary research. More information can be found
 on the webpage of the conference:
 
    https://iwc2026.github.io
- 
+
+## CONFLUENCE COMPETITION - COCO 2026
+
+The 15th Confluence Competition CoCo 2026 will run live during IWC 2026.
+
+   https://project-coco.uibk.ac.at/
+
 ## SUBMISSIONS
 
 We solicit short papers or extended abstracts of at most 5 pages in
