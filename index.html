@@ -53,7 +53,7 @@
   <a href="http://cl-informatik.uibk.ac.at/iwc/2022/">IWC 2022</a>
   <a href="http://cl-informatik.uibk.ac.at/iwc/2023/">IWC 2023</a>
   <a href="http://iwc24.github.io">IWC 2024</a>
-  <a href="http://iwc2025.github.io">IWC 2025</a>
+  <a href="http://iwc2026.github.io">IWC 2026</a>
   IWC 2026
  </div>
 <style>
@@ -90,7 +90,7 @@
 
 <ul>
 <!--
-  <li><b>September 5th, 2025</b>: Added slides of all presentations.</li>
+  <li><b>September 5th, 2026</b>: Added slides of all presentations.</li>
 -->
   <li><b>July 20th, 2026</b>: Released the proceedings.</li>
   <li><b>July 9th, 2026</b>: Released the program.</li>
@@ -171,6 +171,367 @@ Note that early registration ends on <b>June 1, 2026</b>.
   The <a href="documents/iwc2026_proceedings.pdf" target="_blank">proceedings</a> are available online and include reports and tool descriptions on the Confluence Competition 2026.
 </p>
 
+<h2 id="program">Program</h2>
+
+<p>
+See also <a href="https://program.floc26.org/">FLOC local information and schedule</a>.
+  </p>
+
+<div style="font-size:10pt">
+  <table cellpadding="1" cellspacing="1" border="0" width="90%" style="font-size:10pt">
+    <tr>
+      <td colspan="2" style="background-color:#e4e4e4; border-radius:3px">
+	&nbsp;
+	<b>Friday, July 24</b>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="background-color:while;
+			     border-radius:3px">
+	<b>Session 1</b> (chair: Ra&uacute;l Guti&eacute;rrez)
+      </td>
+    </tr>
+    <tr>
+      <td width="10%">08:30-09:30</td>
+      <td>
+	Jean-Pierre Jouannaud
+	<span style="color: #8B0000">(Invited talk)</span>
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+	<i> Confluence of Rewrites on Term Graphs and Graphs</i>
+	<details>
+	  <summary><a href="./slides/IWC2026_invited-talk.pdf">slides</a>
+	  </summary>
+	</details>
+      </td>
+    </tr>
+    <tr>
+      <td>09:30-10:00</td>
+      <td>
+  Clemens Grabmayer
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+	<i> Loop Elimination in Process Graphs is Confluent when Pruning Steps are Added</i>
+	<details>
+	  <summary>abstract
+	    &nbsp; <a href="./documents/iwc2026_proceedings.pdf#page=6">paper</a>
+	    <!-- &nbsp; <a href="./slides/IWC2026_presentation_1.pdf">slides</a> -->
+	  </summary>
+    <p>
+      Process graphs that are interpretations of '1-free' regular expressions in Milner's process
+semantics for regular expressions have the Loop Existence and Elimination Property (LEE).
+Hereby a process graph satisfies LEE if the procedure of loop elimination, in which in every
+step a loop subgraph is decoupled by removing its entry transitions and then garbage
+collection is performed, terminates in a process graph without an infinite trace. Loop
+elimination in finite process graphs is terminating, but typically not confluent.
+    </p>
+    <p>
+      We explain that loop elimination can be turned into a confluent rewrite system on all
+process graphs by adding pruning steps that remove transitions to deadlocking states. For
+this purpose we perform a critical-pair like analysis that involves bi-loop subgraphs, and use
+the decreasing diagram method. This confluence result has two expedient consequences:
+for finite process graphs, LEE can be decided in polynomial time, and a layered version of
+LEE (no loops are eliminated from bodies of already eliminated ones) coincides with LEE.
+    </p>
+    <p>
+      We report on an aspect of work on the process semantics of regular expressions that concerns
+a procedure for analysing the structure of process graphs by decomposition. Formalising this
+procedure via rewrite relations helped us to clarify the situation. While the confluence result
+that we describe here does not require new techniques, it has some tangible consequences.
+    </p>
+	</details>
+    </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color:#eeeeee;color: #555;">10:00-10:30</td>
+      <td style="background-color:#eeeeee;color: #555;">coffee break</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="background-color:while;
+			     border-radius:3px">
+	<b>Session 2</b> (chair: Thiago Felicissimo)
+      </td>
+    </tr>
+    <tr>
+      <td>10:30-11:00</td>
+      <td>
+		Ren&eacute; Thiemann
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+	<i>Verifying and Generalizing Simultaneous Critical Pairs</i>
+	<details>
+	  <summary>abstract
+	    &nbsp; <a href="./documents/IWC2026_proceedings.pdf#page=13">paper</a>
+	    &nbsp; <a href="./slides/IWC2026_presentation_2.pdf">slides</a>
+	  </summary>
+    <p>
+      Okui proved that simultaneous critical pairs (SCPs) can be used as a sufficient criterion
+to ensure confluence of term rewrite systems. His definitions, lemmas and proofs where
+reformulated by Kirk and Middeldorp. They heavily utilize proof terms and finally arrive
+at a formalized proof of Okui's result in Isabelle/HOL. However, Kirk and Middeldorp's
+formalization lacks an executable algorithm to compute the set of proof term based SCPs
+in a verified way.
+    </p>
+    <p>
+In this work, we provide such an algorithm, and we further modify the formalization in
+such a way, that SCPs can also be used to show commutation, generalizing the confluence
+result. Our results have fully been integrated in the certifier CeTA, that now can deal with
+both commutation- and confluence-proofs by SCPs.
+    </p>
+	</details>
+    </details>
+      </td>
+    </tr>
+    <tr>
+      <td>11:00-11:30</td>
+      <td>
+	Johannes Niederhauser and Aart Middeldorp
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+	<i>Confluence of Orthogonal Deterministic Higher-Order Pattern Rewrite Systems</i>
+	<details>
+	  <summary>abstract
+	    &nbsp; <a href="./documents/IWC2026_proceedings.pdf#page=20">paper</a>
+	    &nbsp; <a href="./slides/IWC2026_presentation_3.pdf">slides</a>
+	  </summary>
+	   <p>
+	     We generalize the confluence result for orthogonal higher-order pattern rewrite systems to higher-order rewrite systems whose left hand sides consist of Yokoyama et al.'s deterministic higher-order patterns.
+	   </p>
+	</details>
+      </td>
+    </tr>
+    <tr>
+      <td>11:30-12:00</td>
+      <td>
+	  Vincent van Oostrom and Giulio Guerrieri
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+	<i>Confluence of bang modulo</i>
+	<details>
+	  <summary>abstract
+	    &nbsp; <a href="./documents/IWC2026_proceedings.pdf#page=27">paper</a>
+	    &nbsp; <a href="./slides/IWC2026_presentation_4.pdf">slides</a>
+	  </summary>
+    <p>
+      We show that for the (untyped) bang-calculus &beta;! is confluent modulo &sigma;.
+    </p>
+	</details>
+      </td>
+    </tr>
+    <tr>
+      <td>12:00-12:30</td>
+      <td>
+    Ievgen Ivanov
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+	<i>On Completeness of the Decreasing Diagrams Method for Proving Confluence of Rewriting Systems of Cardinalities Below the First Uncountable Limit Cardinal</i>
+	<details>
+	  <summary>abstract
+	    &nbsp; <a href="./documents/IWC2026_proceedings.pdf#page=34">paper</a>
+	    <!-- &nbsp; <a href="./slides/IWC2026_presentation_5.pdf">slides</a> --></summary>
+    <p>
+      We describe a machine-checked proof of a result in Isabelle/HOL that implies that if the
+cardinality of a confluent abstract rewriting system (ARS) is below the first uncountable
+limit cardinal, then confluence of this ARS can be proved with the help of the decreasing
+diagrams method using 3 labels and such an ARS has a so-called almost deterministic
+Church-Rosser strategy (defined by weakening conditions of the definition of deterministic
+one-step Church-Rosser strategies).
+      </p>
+      <p>
+We also discuss consequences of this result. One consequence is that there is a statement
+that can be used as additional axiom to HOL that implies that every confluent ARS has
+an almost deterministic Church-Rosser strategy and that the decreasing diagrams method
+with 3 labels is complete without cardinality restrictions.
+    </p>
+	</details>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color:#eeeeee;color: #555;">12:30-14:00</td>
+      <td style="background-color:#eeeeee;color: #555;">lunch</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="background-color:while;
+			     border-radius:3px">
+	<b>Session 3</b> (chair: Ren&eacute; Thiemann)
+      </td>
+    </tr>
+    <tr>
+      <td>14:00-14:30</td>
+      <td>
+		Jan-Christoph Kassing, Moritz Leven Rosarius, Henri Nagel and J&uuml;rgen Giesl
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+	<i>Disproving Reachability in Probabilistic Term Rewriting</i>
+	<details>
+	  <summary>abstract
+	    &nbsp; <a href="./documents/IWC2026_proceedings.pdf#page=41">paper</a>
+	    <!-- &nbsp; <a href="./slides/IWC2026_presentation_6.pdf">slides</a>-->
+	  </summary>
+  <p>
+    Reachability is a central question in term rewriting: can a given target term (e.g., an error
+state) be reached from a start term? It is also an important property in confluence analysis,
+and corresponding tools compete in the annual confluence competition. An interesting
+generalization of this problem is handling programs that can make random choices during
+execution. For such probabilistic programs, reachability becomes a quantitative property
+instead of a qualitative one: instead of asking whether the target is reachable, one asks with
+which probability it is reached. We lift reachability analysis from ordinary term rewriting
+to probabilistic term rewrite systems. To do so, we formalize the maximal probability of
+reaching a target term and adapt two techniques for analyzing reachability (based on symbol
+transition graphs and on term orderings) to compute upper bounds on this probability.
+  </p>
+	</details>
+      </td>
+    </tr>
+    <tr>
+      <td>14:30-15:00</td>
+      <td>
+		Masahiko Sakai, Aart Middeldorp and Sarah Winkler
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+	<i>Enumerating Ground Canonical Rewrite Systems</i>
+	<details>
+	  <summary>abstract
+	    &nbsp; <a href="./documents/IWC2026_proceedings.pdf#page=48">paper</a>
+	    &nbsp; <a href="./slides/IWC2026_presentation_7.pdf">slides</a>
+	  </summary>
+    <p>
+      In an earlier paper we proved that a transformation due to Snyder generates all canonical TRSs equivalent to a given canonical ground TRS. Here we present an explicit recursive procedure to generate these. We prove its correctness and show how the procedure can be used to obtain the exponential upper bound due to Snyder on the number of canonical ground presentations.
+    </p>
+	</details>
+      </td>
+    </tr>
+    <tr>
+      <td>15:00-15:30</td>
+      <td>
+		Ra&uacute;l Guti&eacute;rrez and Salvador Lucas
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+	<i>On Proving Confluence of Generalized Term Rewriting Systems Using CONFident</i>
+	<details>
+	  <summary>abstract
+	    &nbsp; <a href="./documents/IWC2026_proceedings.pdf#page=55">paper</a>
+	    &nbsp; <a href="./slides/IWC2026_presentation_8.pdf">slides</a>
+	  </summary>
+    <p>
+      Generalized Term Rewriting Systems (GTRSs) extend Term Rewriting Systems by
+providing a highly expressive framework that integrates conditional rules, context-sensitive
+replacement restrictions, and Horn clauses directly into the rewriting formalism. In this
+work, we extend our confluence tool CONFident to prove and disprove confluence of GTRSs.
+    </p>
+	</details>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color:#eeeeee;color: #555;">15:30-16:00</td>
+      <td style="background-color:#eeeeee;color: #555;">coffee break</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="background-color:while;
+			     border-radius:3px">
+	<b>Session 4</b> (chair: Vincent van Oostrom) 
+      </td>
+    </tr>
+        <tr>
+      <td>16:00-16:30</td>
+      <td>
+		Philippe Malbos and Zuan Liu
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+	<i>Normalised completion for stratified linear rewriting systems</i>
+	<details>
+	  <summary>abstract
+	    &nbsp; <a href="./documents/IWC2026_proceedings.pdf#page=62">paper</a>
+	    <!-- &nbsp; <a href="./slides/IWC2026_presentation_9.pdf">slides</a> -->
+	  </summary>
+    <p>
+      We present a stratified normalisation completion procedure for rewriting systems over
+linear precategories. Our approach relies on a stratification of the set of rewriting rules
+according to their confluence and termination properties. We introduce stratified termination functions to establish termination for such systems. We illustrate the method on several classes of algebraic structures, including associative and diagrammatic algebras. In
+these contexts, we show how the stratification of defining rules can be used to compute
+hom-bases effectively.
+    </p>
+	</details>
+      </td>
+    </tr>
+    <tr>
+      <td>16:30-17:00</td>
+      <td>
+		Salvador Lucas and Julia Pag&aacute;n
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+	<i>Completion to Strong Confluence</i>
+	<details>
+	  <summary>abstract
+	    &nbsp; <a href="./documents/IWC2026_proceedings.pdf#page=69">paper</a>
+	    &nbsp; <a href="./slides/IWC2026_presentation_10.pdf">slides</a>
+	  </summary>
+    <p>
+      We describe completion procedures to obtain strongly confluent TRSs from a set of
+equations. Strong confluence implies confluence without requiring termination. We show
+the performance of our implementation in TRS.Tool 2 by means of some benchmarks.
+    </p>
+	</details>
+      </td>
+    </tr>
+    <tr>
+      <td>17:00-17:30</td><td>Aart Middeldorp, Naoki Nishida, Teppei Saito, Ren&eacute; Thiemann and Sarah Winkler</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>
+	<a href="https://project-coco.uibk.ac.at/2026/">Confluence Competition 2026</a>
+      <details>
+        <summary>
+          <a href="./documents/IWC2026_proceedings.pdf#page=76">paper</a>
+	    &nbsp; <a href="./slides/IWC2026_presentation_coco.pdf">slides</a>
+      </summary>
+      </details>
+      </td>
+    </tr>
+    <tr>
+      <td>17:30-18:00</td>
+      <td>
+     	Business meeting
+      </td>
+    </tr>
+  </table>
+</div>
+
 <h2 id="timeline">Important Dates</h2>
 <dl>
   <dt>submission (title and abstract): <b><font color="black"></font>May 4, 2026</font></b></dt>
@@ -244,7 +605,7 @@ Note that early registration ends on <b>June 1, 2026</b>.
  <li><a href="http://cl-informatik.uibk.ac.at/iwc/2022/">11th IWC</a>, Haifa, 2022</li>
  <li><a href="http://cl-informatik.uibk.ac.at/iwc/2023/">12th IWC</a>, Obergurgl, 2023</li>
  <li><a href="https://iwc24.github.io">13th IWC</a>, Tallinn, 2024</li>
- <li><a href="https://iwc2025.github.io">14th IWC</a>, Leipzig, 2025</li>
+ <li><a href="https://iwc2026.github.io">14th IWC</a>, Leipzig, 2026</li>
 </ul>
 
 
